@@ -1,0 +1,221 @@
+/*faire du responsie pour finir l'exercice*/
+
+body
+{
+background-color: rgb(41, 39, 45);
+margin : 2% 20% 2% 20%;
+
+}
+
+.mainTitle
+{
+  text-align: center;
+}
+
+.myst
+{
+  display : flex;
+  justify-content: space-around;
+}
+
+/* les étiles*/
+.starBox
+{
+  background-color: #D7F9FF ;
+  font-size: x-large;
+  border-radius : 30px; 
+
+}
+
+/* confi de l'image */
+
+.blackBoard
+{
+  padding-top: 5%; 
+  text-align: center;
+
+}
+
+/* affichage clavier */
+
+.keyBoard
+{
+  padding-top: 5%; 
+  justify-content: center;
+  padding: auto;
+  display: grid;
+  grid-template-columns: repeat(10, 5%);
+  grid-column-gap: 1%;
+  grid-row-gap: 6%;
+
+}
+/* affichage des lettre dans l'ordre du clavier */
+
+/* première ligne de claiver */
+.btna
+{
+  grid-column: 1/1;
+  grid-row: 1;
+
+}
+.btnz
+{
+  grid-column: 2/2;
+  grid-row: 1;
+  
+}
+.btne
+{
+  grid-column: 3/3;
+  grid-row: 1;
+
+}
+.btnr
+{
+  grid-column: 4/4;
+  grid-row: 1;
+
+}
+.btnt
+{
+  grid-column: 5/5;
+  grid-row: 1;
+
+}
+
+.btny
+{
+  grid-column: 6/6;
+  grid-row: 1;
+
+}
+.btnu
+{
+  grid-column: 7/7;
+  grid-row: 1;
+
+}
+.btni
+{
+  grid-column: 8/8;
+  grid-row: 1;
+}
+.btno
+{
+  grid-column: 9/9;
+  grid-row: 1;
+}
+
+.btnp
+{
+  grid-column: 10/10;
+  grid-row: 1;
+
+}
+
+/* deuxime ligne de claiver */
+
+.btnq
+{
+  grid-column: 1/1;
+  grid-row: 2;
+}
+.btns
+{
+  grid-column: 2/2;
+  grid-row: 2;
+
+}
+.btnd
+{
+  grid-column: 3/3;
+  grid-row: 2;
+
+}
+.btnf
+{
+  grid-column: 4/4;
+  grid-row: 2;
+
+}
+.btng
+{
+  grid-column: 5/5;
+  grid-row: 2;
+
+}
+
+.btnh
+{
+  grid-column: 6/6;
+  grid-row: 2;
+
+}
+.btnj
+{
+  grid-column: 7/7;
+  grid-row: 2;
+}
+.btnk
+{
+  grid-column: 8/8;
+  grid-row: 2;
+  text-align: center;
+
+}
+.btnl
+{
+  grid-column: 9/9;
+  grid-row: 2;
+
+}
+.btnm
+{
+  grid-column: 10/10;
+  grid-row: 2;
+
+}
+
+/* troisième ligne de claiver */
+
+.btnw
+{
+  grid-column: 3/3;
+  grid-row: 3;
+
+}
+.btnx
+{
+  grid-column: 4/4;
+  grid-row: 3;
+}
+.btnc
+{
+  grid-column: 5/5;
+  grid-row: 3;
+}
+.btnv
+{
+  grid-column: 6/6;
+  grid-row: 3;
+}
+.btnb
+{
+  grid-column: 7/7;
+  grid-row: 3;
+}
+
+.btnn
+{
+  grid-column: 8/8;
+  grid-row: 3;
+}
+
+/* couleur des touches du clavier*/
+
+.btna, .btnb, .btnc, .btnd, .btne, .btnf, .btng, .btnh, .btni, .btnj, .btnk, .btnl, .btnm, .btnn, .btno, .btnp, .btnq, .btnr, .btns, .btnt, .btnu, .btnv, .btnw, .btnx, .btny, .btnz
+{
+  background-color: #DBFCFF;
+  text-align: center;
+  font-size : large;
+}
